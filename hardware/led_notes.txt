@@ -1,0 +1,11 @@
+Red LEDs: 
+1.95V forward voltage
+100 Ohm resistor
+22.5 mA current
+50.6 mW dissipated by resistor
+
+Blue LEDs:
+3.3V forward voltage
+51 Ohm resistor
+17.6 mA current
+15.8 mW dissipated by resistor

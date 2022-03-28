@@ -1,0 +1,3 @@
+Color of Quadcopter: 		White
+Silkscreen Color:		Black
+Dimension:			135.4 x 135.4 mm

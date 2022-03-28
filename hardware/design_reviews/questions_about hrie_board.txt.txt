@@ -1,0 +1,40 @@
+Questions from Sample Check LIst
+
+1. Antenna and Antenna Driver
+	Everthing looks good for this section
+
+2. Power and Ground
+	a. The VBAT and BAT_GND, around motors is less than 3mm, if you dont require current there you can just make your two layers small.
+	b. Also you have less than 3mm around your mounting hole towards the board. I don't know if this going to create an issue(we can confirm with professor).
+	c. PWM4 line cuts the layer 15 into two planes.
+
+3. IMU
+	Everthing looks good for this section
+
+4. Headers
+	a. No names gives to breakout header.
+
+5. Microcontroller
+	Everthing looks good for this section
+
+6. Power Supply
+	2V5 power plane is not under the voltage regulator
+
+7. Motor Drivers
+	Everthing looks good for this section
+	Can you check thickness of nets the motor driver for me (Rye)!
+
+8. Aesthetics
+	a. Board looks fine, but increasing the thickness at the end of the board where motors connects, would help you survive the damage.
+	b. Reference designators overlaps near IMU, microcontroller and volatage regulator, try if you can make it work.
+
+9. Mechanical
+	Everthing looks good for this section
+
+10. LEDs
+	
+
+11. Checks
+	I think there is a blob under antenna which is not required.	
+
+

@@ -1,0 +1,42 @@
+Reviewers: SneakySnap
+Harsh (hthakur@ucsd.edu)
+Rye (njgleaso@ucsd.edu)
+Reviewees: DW
+William (wis003@ucsd.edu)
+Mingyang (miliu@ucsd.edu)
+
+Questions from Sample Check LIst
+
+1. Antenna and Antenna Driver
+	Will the copper DW close to the antenna cause interferece? According to me yes.
+
+2. Power and Ground
+	a. The VBAT and BAT_GND, around motors is less than 3mm, if you dont require current there you can just make your two layers small.
+
+3. IMU
+	Everthing looks good for this section
+
+4. Headers
+	a. No names gives to breakout header. No silkscreen labels on your programming header
+
+5. Microcontroller
+	Everthing looks good for this section
+
+6. Power Supply
+	2V5 power plane is not under the voltage regulator
+
+7. Motor Drivers
+	Everthing looks good for this section
+
+8. Aesthetics
+	a. Board looks fine, but increasing the thickness at the end of the board where motors connects, would help you survive the damage.
+	b. Reference designators overlaps near IMU, microcontroller and volatage regulator, try if you can make it work. Names and values for C12 and nearby capacitors are a mess, same for C16. C1 and C2 labels will be hidden by the parts you're placing there
+
+9. Mechanical
+	a. Grommet ring to board connection is very thin, are you sure it'll withstand a crash?
+
+10. LEDs
+	Everthing looks good for this section		
+
+11. Checks
+	I think there is a blob under antenna which is not required.

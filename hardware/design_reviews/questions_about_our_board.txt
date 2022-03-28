@@ -1,0 +1,47 @@
+****************
+Sample Checklist
+****************
+
+Is the trace between the balun and the antenna short (no longer than the corresponding trace in the reference design)?
+--> Eaglint wants 6mm, did this pass the auto check?
+
+Is it okay for the antenna to be not on the edge of the board?
+--> Signal integrity may be compromised by electrical parts around it, particularly the two parts of the board below the antenna
+
+Should the cutout include part of the MCU?
+--> Discussed with us during class
+
+Is the FTDI header oriented so the silkscreen is labels for the pins are on the board and the pins will protrude off the board?
+--> Not close to the edge of the board
+
+Does the layout look nice?
+--> You can make layer 2 and 15 pours cover the whole board, otherwise the color will be different near the propellor
+
+Double check header orientation
+--> Looks different than ours, not sure if that matters
+
+Mechanical ring width
+--> Width is 3.2mm, which is much thicker than requirement (1.7mm). Could make it thinner for better propellor clearance.
+
+**********
+DRC CHECKS
+**********
+
+Trace width error was approved for the balun
+--> On ADRV pin in B1, the trace width underneath is much bigger than Professor's video example
+
+Trace width error on pin 58 for the MCU
+--> Maybe rewire that pin
+
+****
+LEDS
+****
+
+24 extra LEDS might be super bright if they can't be dimmed
+--> Maybe consider a potentiometer to control brightness
+--> Also, resistors are calculated based on max VBAT (4.2V)
+
+
+
+
+
