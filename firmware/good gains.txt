@@ -1,0 +1,6 @@
+Pitch P: 0.55
+Pitch I: 0.10
+Pitch D: 0.20
+Gyro HP: 1001
+Complementary: 0.95
+XL LP cutoff: ODR/50

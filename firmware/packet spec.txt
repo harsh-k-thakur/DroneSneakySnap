@@ -1,0 +1,18 @@
+1 byte magicnum
+
+1 bit enable
+1 bit single/multi motor
+2 bit motor select
+4 bit parameter select
+
+4 byte parameter value
+4 bytes setpoint
+
+
+parameter options:
+1 none
+9 PID
+1 complementary gain
+1 gyro highpass
+1 XL LP cutoff
+

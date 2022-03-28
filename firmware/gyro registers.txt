@@ -1,0 +1,13 @@
+CTRL_REG1_G:
+ODR_G: 011 (119 hZ)
+11ms
+FS_G: 11 (2000 dps)
+BW_G: doesn't matter, 11 to be sure
+
+CTRL_REG2_G:
+OUT_SEL: 01
+
+CTRL_REG3_G:
+LP_mode: 0
+HP_EN: irrelevant
+HPCF_G: variable, 0000 to 1001, 0000 is more filtering

@@ -1,0 +1,21 @@
+Read time: 12ms
+
+Register changes:
+REGISTER_CTRL_REG1_G, ODR_119 | G_BW_G_10
+REGISTER_CTRL_REG2_G, G_OUTSEL_HP
+REGISTER_CTRL_REG3_G, G_HP_EN | parameters.gyro_highpass
+gyro highpass is a 4-bit value between 0000 and 1001, set by the remote
+
+
+REGISTER_CTRL_REG5_XL, XL_ENABLE_X | XL_ENABLE_Y | XL_ENABLE_Z
+REGISTER_CTRL_REG6_XL, ODR_119
+
+REGISTER_CTRL_REG7_XL, HR_MODE | parameters.accel_lowpass_ratio << 5
+lowpass_ratio is set by the remote, 2-bit value
+
+REGISTER_CTRL_REG3_M, B00000010
+
+ODR: 119
+ODR ratio (accelerometer): ODR/50
+Accelerometer lowpass cutoff frequency: 119/50 = 2.38 Hz
+Gyro highpass cutoff frequency: 0.01 Hz
